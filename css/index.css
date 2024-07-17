@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap');
+
+.span-style {
+    font-family: "Playwrite CU", cursive;
+    font-weight: 100;
+    line-height: 0;
+}
+
+
+
+
+
+
+
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+*{
+    margin: 0;
+    padding: 0;
+    /* color: white; */
+}
+.main-header{
+    background: linear-gradient(45.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+
+nav {
+    display: flex;
+    margin: 20px 140px;
+    justify-content: space-between;
+}
+.logo h1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    color: rgb(230, 83, 60);
+    margin-top: 34px;
+}
+.list-item {
+    display: flex;
+    margin-top: 33px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px 20px 12px;
+    border-radius: 36px;
+    position: relative;
+}
+.list-item li {
+    list-style: none;
+}
+.list-item li a {
+    text-decoration: none;
+    padding: 7px 30px;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+#active {
+    background-color: rgb(230, 83, 60);
+    border: none;
+    border-radius: 36px;
+    margin-left: -14px;
+}
+
+
+
+
+
+/* Hero section */
+
+
+.header-main {
+    display: flex;
+    padding: 70px 140px 0;
+}
+.header-text h1 {
+    font-size: 59px;
+    font-weight: 900;
+    color: white;
+}
+.header-text p{
+    width: 70%;
+    margin: 20px 0;
+    padding: 20px 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+.header-text {
+    padding-top: 17px;
+}
+
+.header-main img {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-1 {
+    padding: 12px 30px 12px 28px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    font-size: 15px;
+    color: white;
+}
+.btn-2{
+    padding: 12px 30px 12px 28px;
+    border-radius: 42px;
+    background: none;
+    border: 1px solid white;
+    font-size: 15px;
+    color: white;
+    margin-left: 10px;
+}
+
+.header-img{
+    position: relative;
+}
+.head-card-first {
+    position: absolute;
+    width: 206px;
+    height: 96px;
+    border-radius: 12px;
+    backdrop-filter: blur(2px);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 67%;
+    left: -57%;
+}
+.head-first {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    margin: 0 15px;
+}
+.head-second h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+.head-second p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+.head-card-second h3{
+    font-size: 40px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+#text-Brack{
+    font-size: 13px;
+    font-weight: 400;
+}
+.head-card-second {
+    position: absolute;
+    width: 170px;
+    height: 96px;
+    border-radius: 12px;
+    backdrop-filter: blur(2px);
+    background: rgba(48, 48, 48, 0.54);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 30px;
+    top: 15%;
+    left: 64%;
+}
+.head-card-second p{
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+
+/* Change Your Habits */
+
+
+.habit-text {
+    width: 50%;
+    margin: 59px auto 40px;
+    text-align: center;
+}
+.habit-text h1{
+    color: white;
+    margin: 10px 0;
+    font-size: 48px;
+    font-weight: 900;
+}
+.habit-text p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+.habit-card{
+    display: flex;
+    width: 80%;
+    margin: 0 auto 50px;
+    text-align: center;
+}
+.habit-card img{
+    border: 5px solid #1A1A1A;
+    border-radius: 50%;
+}
+.habit-card h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin: 15px 0;
+}
+.habit-card p{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgba(255, 255, 255, 0.5);
+}
+
+
+/* Run an Extra Mile Easily */
+
+.run-main {
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    height: auto;
+    width: 72%;
+    margin: 100px auto 70px;
+    padding: 40px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.run-text{
+    width: 50%;
+}
+
+.run-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+}
+.run-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 80%;
+    margin: 25px 0;
+}
+
+.run-main img{
+    height: 100%;
+    width: auto;
+    border-radius: 18px;
+}
+
+.run-main button {
+    padding: 10px 40px 10px 40px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    font-size: 15px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+
+/* BMI Calculator */
+
+.Calculator{
+    width: 50%;
+    margin: 50px auto 70px;
+}
+.Calculator h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+}
+.Calculator p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* BMI Calculator Chart */
+
+.chart-main {
+    margin: 0 auto 50px;
+    background: rgb(34, 34, 34);
+    padding: 40px 120px 50px 140px;
+    display: flex;
+    justify-content: space-around;
+}
+.chart-main h1{
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    margin-bottom: 52px;   
+}
+
+table {
+    border-collapse: collapse;
+    width: 368px;
+}
+td, th {
+    border: 1px solid rgba(255, 255, 255, 0.356);
+    text-align: left;
+    padding: 13px 0 13px 28px;
+    color: rgba(255, 255, 255, 0.5);
+}
+th{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+}
+.chart-form {
+    width: 465px;
+}
+.form-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 900;
+    margin: 0 0 20px 0;
+}
+.form-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    width: 80%;
+    margin: 20px 0;
+}
+
+input {
+    margin-bottom: 14px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 6px;
+    padding: 15px 20px;
+}
+
+input::placeholder{
+    padding-left: 10px;
+}
+#last-item {
+    padding: 15px 257px 15px 15px;
+    border-radius: 8px;
+    color: rgba(5, 5, 5, 0.575);
+}
+#first-item {
+    padding: 15px 138px 15px 15px;
+    border-radius: 8px;
+    color: rgba(5, 5, 5, 0.575);
+}
+.form-btn {
+    margin-top: 20px;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 42px;
+    color: white;
+    background-color: rgb(230, 83, 60);
+}
