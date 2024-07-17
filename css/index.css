@@ -73,15 +73,18 @@ nav {
 
 .header-main {
     display: flex;
-    padding: 70px 140px 0;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+    justify-content: space-between;
 }
 .header-text h1 {
-    font-size: 59px;
+    font-size: 67px;
     font-weight: 900;
     color: white;
 }
 .header-text p{
-    width: 70%;
+    width: 64%;
     margin: 20px 0;
     padding: 20px 0;
     color: rgba(255, 255, 255, 0.5);
@@ -127,7 +130,7 @@ nav {
     justify-content: center;
     align-items: center;
     top: 67%;
-    left: -57%;
+    left: -42%;
 }
 .head-first {
     width: 40px;
@@ -169,7 +172,7 @@ nav {
     flex-direction: column;
     padding: 0 0 0 30px;
     top: 15%;
-    left: 64%;
+    left: 54%;
 }
 .head-card-second p{
     font-size: 13px;
@@ -179,7 +182,10 @@ nav {
 
 
 /* Change Your Habits */
-
+.habit-main {
+    width: 84%;
+    margin: 0 auto;
+}
 
 .habit-text {
     width: 50%;
@@ -197,6 +203,9 @@ nav {
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
+.card{
+    margin: 0 20px;
+}
 .habit-card{
     display: flex;
     width: 80%;
@@ -213,12 +222,13 @@ nav {
     color: rgb(255, 255, 255);
     margin: 15px 0;
 }
-.habit-card p{
+.habit-card p {
     font-size: 14px;
     font-weight: 400;
-    color:rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    width: 80%;
+    margin: 0 auto;
 }
-
 
 /* Run an Extra Mile Easily */
 
@@ -349,12 +359,12 @@ input::placeholder{
     padding-left: 10px;
 }
 #last-item {
-    padding: 15px 257px 15px 15px;
+    padding: 15px 254px 15px 15px;
     border-radius: 8px;
     color: rgba(5, 5, 5, 0.575);
 }
 #first-item {
-    padding: 15px 138px 15px 15px;
+    padding: 15px 134px 15px 15px;
     border-radius: 8px;
     color: rgba(5, 5, 5, 0.575);
 }
@@ -365,4 +375,148 @@ input::placeholder{
     border-radius: 42px;
     color: white;
     background-color: rgb(230, 83, 60);
+}
+
+
+/* Meet Our Team */
+.team-section{
+    margin-bottom: 70px;
+}
+.team-main{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+}
+.team-box {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0 5px 0;
+}
+.team h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+.team p {
+    color: #afa7a7ce;
+}
+.team{
+    width: 326.67px;
+    height: 272px;
+}
+.trainer {
+    padding: 214px 0 0 20px;
+}
+.team-1{
+    background-image: url(../images/trainer1.png);
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.team-2{
+    background-image: url(../images/trainer2.png);
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.team-3{
+    background-image: url(../images/trainer3.png);
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.team-4{
+    background-image: url(../images/trainer4.png);
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.team-5{
+    background-image: url(../images/trainer5.png);
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+.team-6{
+    background-image: url(../images/trainer6.png);
+    background-color: rgba(0, 0, 0, 0.205);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 18px;
+}
+
+
+/* footer section */
+footer{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 70px 0 40px;
+}
+.footer {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer p{
+    color: white;
+    width: 60%;
+}
+.footer-logo {
+    width: 47%;
+}
+.footer-menu {
+    width: 24%;
+}
+.footer-menu-2{
+    width: 24%;
+}
+.footer h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-item li {
+    margin-top: 17px;
+    list-style: none;
+}
+.footer-item li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.footer-logo h1{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    color: rgb(230, 83, 60);
+}
+
+.footer-border{
+    border: 2px solid rgba(255, 255, 255, 0.1);    width: 80%;
+    margin: 40px auto;
+}
+.copyright{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0;
 }
