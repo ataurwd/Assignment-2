@@ -44,6 +44,14 @@
     .habit-text {
         width: 100%;
     }
+    .btn-1 {
+        padding: 12px 16px 12px 16px;
+        margin-left: -26px;
+    }
+    .btn-2 {
+        padding: 11px 18px 11px 18px;
+
+    }
     .habit-text h1 {
         font-size: 31px;
     }
@@ -67,11 +75,20 @@
         padding: 40px 24px;
         flex-direction: column;
     }
+    .run-main img {
+        height: 316px;
+        width: 355px;
+        border-radius: 18px;
+    }
     .run-text {
         width: 100%;
     }
     .run-main button {
         margin-bottom: 20px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 320px;
     }
     .Calculator {
         width: 100%;
@@ -79,25 +96,26 @@
         text-align: center;
     }
     .chart-main {
-        margin: 0 auto 50px;
+        /* margin: 0 auto 50px; */
         background: rgb(34, 34, 34);
-        padding: 40px 20px 50px 30px;
+        padding: 40px 0px 50px 21px;
         display: flex;
         /* justify-content: space-around; */
         flex-direction: column;
+        width: 379px;
     }
     .chart-form {
-        width: 465px;
+        width: 96%;
         margin-top: 47px;
     }
     input {
-        padding: 15px 2px;
+        padding: 13px 0px;
     }
     #first-item {
-        padding: 15px 100px 15px 15px;
+        padding: 13px 95px 15px 13px;
     }
     #last-item {
-        padding: 15px 185px 15px 15px;
+        padding: 13px 173px 15px 13px;
     }
     .card {
         width: 95%;
