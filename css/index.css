@@ -27,8 +27,9 @@ body{
     padding: 0;
     /* color: white; */
 }
-.main-header{
-    background: linear-gradient(45.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+.main-header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    margin-top: -20px;
 }
 
 nav {
