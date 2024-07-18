@@ -78,7 +78,7 @@
         background: rgb(34, 34, 34);
         height: auto;
         width: 360px;
-        margin: 50px 10px 50px;
+        margin: 50px auto 50px;
         padding: 40px 24px;
         flex-direction: column;
     }
@@ -103,14 +103,15 @@
         width: 320px;
     }
     .Calculator {
-        width: 100%;
-        margin: 50px 3px 53px;
+        width: 83%;
+        margin: 50px auto 53px;
         text-align: center;
     }
     .Calculator h1 {
         color: rgb(255, 255, 255);
         font-size: 32px;
         font-weight: 900;
+        margin-bottom: 12px;
     }
     .chart-main {
         /* margin: 0 auto 50px; */
@@ -197,5 +198,8 @@
         display: flex;
         width: 64%;
         margin: 0 auto;
+    }
+    .copyright {
+        font-size: 10px;
     }
 }
