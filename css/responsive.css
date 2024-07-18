@@ -1,0 +1,163 @@
+@media screen and (max-width: 576px) {
+    .list-item{
+        display: none;
+    }
+    nav {
+        display: flex;
+        margin: 10px 30px;
+        justify-content: space-between;
+    }
+    .menu-icon {
+        display: block;
+        color: white;
+        margin: 44px 0 0 184px;
+    }
+    .header-main {
+        display: flex;
+        /* width: 80%; */
+        margin: 0 auto;
+        padding-top: 70px;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .header-text h1 {
+        font-size: 52px;
+    }
+    .header-text p {
+        width: 99%;
+    }
+    
+    .header-img {
+        margin-top: 48px;
+    }
+    .head-card-first {
+        top: 70%;
+        left: -9%;
+    }
+    .head-card-second {
+        top: 28%;
+        left: 48%;
+    }
+    .habit-main {
+        width: 100%;
+    }
+    .habit-text {
+        width: 100%;
+    }
+    .habit-text h1 {
+        font-size: 31px;
+    }
+    .habit-card {
+        display: flex;
+        width: 90%;
+        margin: 0 auto 50px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .card {
+        width: 91%;
+        margin: 20px auto;
+    }
+    .run-main {
+        border-radius: 18px;
+        background: rgb(34, 34, 34);
+        height: auto;
+        width: 360px;
+        margin: 50px 10px 50px;
+        padding: 40px 24px;
+        flex-direction: column;
+    }
+    .run-text {
+        width: 100%;
+    }
+    .run-main button {
+        margin-bottom: 20px;
+    }
+    .Calculator {
+        width: 100%;
+        margin: 50px 3px 53px;
+        text-align: center;
+    }
+    .chart-main {
+        margin: 0 auto 50px;
+        background: rgb(34, 34, 34);
+        padding: 40px 20px 50px 30px;
+        display: flex;
+        /* justify-content: space-around; */
+        flex-direction: column;
+    }
+    .chart-form {
+        width: 465px;
+        margin-top: 47px;
+    }
+    input {
+        padding: 15px 2px;
+    }
+    #first-item {
+        padding: 15px 100px 15px 15px;
+    }
+    #last-item {
+        padding: 15px 185px 15px 15px;
+    }
+    .card {
+        width: 95%;
+        margin: 20px auto;
+    }
+    .card-main {
+        flex-direction: column;
+    }
+    .first-card {
+        background-color: rgba(255, 255, 255, 0.1);
+        height: auto;
+        width: 74%;
+        padding: 25px;
+        text-align: center;
+        border-radius: 23px;
+        margin: 20px 20px;
+    }.second-card{
+        background-color: rgb(230, 83, 60);
+    }
+    .second-card button{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+    .team-box {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px 0 5px 0;
+        flex-direction: column;
+    }
+    .team {
+        width: 292.67px;
+        height: 276px;
+        margin: 11px auto;
+    }
+    footer {
+        padding: 70px 0 20px;
+    }
+    .footer {
+        flex-direction: column;
+    }
+    .footer-logo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer p {
+        color: white;
+        width: 100%;
+    }
+    .footer-menu {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .footer-menu-2 {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .footer {
+        display: flex;
+        width: 64%;
+        margin: 0 auto;
+    }
+}

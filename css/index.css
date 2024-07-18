@@ -9,6 +9,10 @@
 
 
 
+.menu-icon{
+    display: none;
+}
+
 
 
 
@@ -377,6 +381,69 @@ input::placeholder{
     background-color: rgb(230, 83, 60);
 }
 
+
+
+
+
+/* CHOOSE YOUR PLAN */
+.card {
+    width: 91%;
+    margin: 0 auto;
+}
+.card-main{
+    display: flex;
+}
+.first-card {
+    background-color: rgba(255, 255, 255, 0.1);
+    height: auto;
+    width: 26%;
+    padding: 29px;
+    text-align: center;
+    border-radius: 23px;
+    margin: 0 20px;
+}
+.first-card h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 1px;
+}
+.first-card p {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+.first-card h2 {
+    font-size: 44px;
+    color: white;
+    margin: 41px 0;
+}
+.first-card h5 {
+    font-size: 16px;
+    color: white;
+    margin: 20px 0;
+}
+.first-card h3 {
+    font-size: 12px;
+    margin: 10px 0;
+    color: white;
+}
+.first-card button {
+    padding: 14px 46px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(230, 83, 60);
+    cursor: pointer;
+}
+.second-card{
+    background-color: rgb(230, 83, 60);
+}
+.second-card button{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
 
 /* Meet Our Team */
 .team-section{
