@@ -1,4 +1,7 @@
 @media screen and (max-width: 576px) {
+    body{
+        width: 110%;
+    }
     .list-item{
         display: none;
     }
@@ -21,7 +24,11 @@
         flex-direction: column;
     }
     .header-text h1 {
-        font-size: 52px;
+        font-size: 36px;
+    }
+    .header-text {
+        padding-top: 17px;
+        padding-left: 10px;
     }
     .header-text p {
         width: 99%;
@@ -46,14 +53,14 @@
     }
     .btn-1 {
         padding: 12px 16px 12px 16px;
-        margin-left: -26px;
+        margin-left: -5px;
     }
     .btn-2 {
         padding: 11px 18px 11px 18px;
 
     }
     .habit-text h1 {
-        font-size: 31px;
+        font-size: 25px;
     }
     .habit-card {
         display: flex;
@@ -83,6 +90,11 @@
     .run-text {
         width: 100%;
     }
+    .run-text h1 {
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 900;
+    }
     .run-main button {
         margin-bottom: 20px;
     }
@@ -95,6 +107,11 @@
         margin: 50px 3px 53px;
         text-align: center;
     }
+    .Calculator h1 {
+        color: rgb(255, 255, 255);
+        font-size: 32px;
+        font-weight: 900;
+    }
     .chart-main {
         /* margin: 0 auto 50px; */
         background: rgb(34, 34, 34);
@@ -103,6 +120,9 @@
         /* justify-content: space-around; */
         flex-direction: column;
         width: 379px;
+    }
+    .chart-main h1 {
+        font-size: 20px;
     }
     .chart-form {
         width: 96%;
