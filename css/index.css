@@ -266,10 +266,10 @@ nav {
     margin: 25px 0;
 }
 
-.run-main img{
+.run-main img {
     height: 100%;
-    width: auto;
     border-radius: 18px;
+    margin-right: 33px;
 }
 
 .run-main button {
