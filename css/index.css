@@ -358,7 +358,7 @@ th{
 }
 
 .input-box input, select {
-    padding: 11.2px 12.8px; 
+    padding: 12px 13px; 
     background-color: rgba(255, 255, 255, 0.1);
     border: none;
     border-radius: 6.4px; 
@@ -372,18 +372,18 @@ th{
 
 .input-box input::placeholder, select{
     color: rgba(255, 255, 255, 0.6);
-    font-size: 12.8px;
+    /* font-size: 12.8px; */
 }
 
 .calculator .calculate-btn {
-    padding: 12.8px 0;
+    padding: 13px 0;
     width: 33%;
     margin-top: 24px;
     color: white;
     background-color: #E6533C;
     border: none;
     border-radius: 80px;
-    font-size: 12.8px;
+    font-size: 13px;
     cursor: pointer;
 }
 
