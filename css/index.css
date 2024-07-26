@@ -335,55 +335,57 @@ th{
     font-size: 16px;
     font-weight: 500;
 }
-.chart-form {
-    width: 47%;
+
+
+.calculator{
+    width: 55%;
 }
-.form-text h1 {
-    color: rgb(255, 255, 255);
+
+.calculator h1{
     font-size: 28px;
-    font-weight: 900;
-    margin: 0 0 20px 0;
 }
-.form-text p{
-    color: rgba(255, 255, 255, 0.5);
-    font-family: Inter;
+
+.calculator p {
+    margin: 10px 0 28px;
     font-size: 14px;
-    font-weight: 400;
-    width: 80%;
-    margin: 20px 0;
+    color: rgba(255, 255, 255, 0.5);
 }
 
-input {
-    margin-bottom: 14px;
-    border: none;
-    border-radius: 8px;
-    margin-right: 6px;
-    padding: 15px 20px;
+.input-box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
 }
 
-input::placeholder{
-    padding-left: 10px;
-}
-#last-item {
-    padding: 15px 254px 15px 15px;
-    border-radius: 8px;
-    color: rgba(5, 5, 5, 0.575);
-}
-#first-item {
-    padding: 15px 134px 15px 15px;
-    border-radius: 8px;
-    color: rgba(5, 5, 5, 0.575);
-}
-.form-btn {
-    margin-top: 20px;
-    padding: 10px 40px;
+.input-box input, select {
+    padding: 11.2px 12.8px; 
+    background-color: rgba(255, 255, 255, 0.1);
     border: none;
-    border-radius: 42px;
+    border-radius: 6.4px; 
+    font-weight: 200;
+}
+
+
+#activity-factor-select{
+    grid-column: 1 / span 2;
+}
+
+.input-box input::placeholder, select{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12.8px;
+}
+
+.calculator .calculate-btn {
+    padding: 12.8px 0;
+    width: 33%;
+    margin-top: 24px;
     color: white;
-    background-color: rgb(230, 83, 60);
+    background-color: #E6533C;
+    border: none;
+    border-radius: 80px;
+    font-size: 12.8px;
+    cursor: pointer;
 }
-
-
 
 
 
@@ -462,6 +464,10 @@ input::placeholder{
     justify-content: space-evenly;
     padding: 20px 0 5px 0;
 }
+#box-2 {
+    padding-bottom: 30px;
+}
+
 .team h3 {
     color: white;
     font-size: 22px;
@@ -588,4 +594,7 @@ footer{
     font-weight: 400;
     text-align: center;
     margin-bottom: 0;
+}
+.copyright h2 {
+    font-size: 17px;
 }
