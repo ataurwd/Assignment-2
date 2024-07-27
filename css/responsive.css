@@ -27,7 +27,7 @@
         flex-direction: column;
     }
     .header-text h1 {
-        font-size: 36px;
+        font-size: 2.25rem;
     }
     .header-text {
         padding-top: 17px;
@@ -45,7 +45,7 @@
         left: -9%;
     }
     .head-card-second h3 {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
     .head-card-second {
         position: absolute;
@@ -82,7 +82,7 @@
 
     }
     .habit-text h1 {
-        font-size: 34px;
+        font-size: 2.125rem;
     }
     .habit-card {
         display: flex;
@@ -116,7 +116,7 @@
     }
     .run-text p {
         color: rgba(255, 255, 255, 0.5);
-        font-size: 14px;
+        font-size: 0.875rem;
         font-weight: 400;
         line-height: 24px;
         width: 80%;
@@ -125,7 +125,7 @@
     }
     .run-text h1 {
         color: rgb(255, 255, 255);
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 900;
         text-align: left;
     }
@@ -144,7 +144,7 @@
     }
     .Calculator h1 {
         color: rgb(255, 255, 255);
-        font-size: 32px;
+        font-size: 2rem;
         font-weight: 900;
         margin-bottom: 12px;
     }
@@ -156,7 +156,7 @@
         /* width: 95%; */
     }
     .chart-main h1 {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
     .calculator {
         width: 90%;
@@ -183,7 +183,7 @@
         margin: 20px 20px;
     }
     .first-card h1 {
-        font-size: 31px;
+        font-size: 2rem;
     }
     .second-card{
         background-color: rgb(230, 83, 60);
@@ -240,7 +240,7 @@
         margin: 0 auto;
     }
     .copyright {
-        font-size: 10px;
+        font-size: 0.625rem;
     }
     main{
         width: 100%;

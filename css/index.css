@@ -38,7 +38,7 @@ nav {
     justify-content: space-between;
 }
 .logo h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 800;
     line-height: 120%;
     color: rgb(230, 83, 60);
@@ -58,7 +58,7 @@ nav {
 .list-item li a {
     text-decoration: none;
     padding: 7px 30px;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 400;
     color: white;
 }
@@ -84,7 +84,7 @@ nav {
     justify-content: space-between;
 }
 .header-text h1 {
-    font-size: 67px;
+    font-size: 4.188rem;
     font-weight: 900;
     color: white;
 }
@@ -109,7 +109,7 @@ nav {
     border-radius: 42px;
     background: rgb(230, 83, 60);
     border: none;
-    font-size: 15px;
+    font-size: .9rem;
     color: white;
 }
 .btn-2{
@@ -117,7 +117,7 @@ nav {
     border-radius: 42px;
     background: none;
     border: 1px solid white;
-    font-size: 15px;
+    font-size: .9rem;
     color: white;
     margin-left: 10px;
 }
@@ -151,7 +151,7 @@ nav {
     font-weight: 900;
 }
 .head-second p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     color: rgba(239, 237, 232, 0.65);
@@ -163,7 +163,7 @@ nav {
     color: rgb(255, 255, 255);
 }
 #text-Brack{
-    font-size: 13px;
+    font-size: 0.875rem;
     font-weight: 400;
 }
 .head-card-second {
@@ -181,7 +181,7 @@ nav {
     left: 54%;
 }
 .head-card-second p{
-    font-size: 13px;
+    font-size: 0.875rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
 }
@@ -201,11 +201,11 @@ nav {
 .habit-text h1{
     color: white;
     margin: 10px 0;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
 }
 .habit-text p{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
 }
@@ -223,13 +223,13 @@ nav {
     border-radius: 50%;
 }
 .habit-card h3{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     color: rgb(255, 255, 255);
     margin: 15px 0;
 }
 .habit-card p {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
     width: 80%;
@@ -254,12 +254,12 @@ nav {
 
 .run-text h1{
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
 }
 .run-text p{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 0.875;
     font-weight: 400;
     line-height: 24px;
     width: 80%;
@@ -277,7 +277,7 @@ nav {
     border-radius: 42px;
     background: rgb(230, 83, 60);
     border: none;
-    font-size: 15px;
+    font-size: 0.938rem;
     color: white;
     margin-top: 10px;
 }
@@ -293,12 +293,12 @@ nav {
 }
 .Calculator h1{
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
 }
 .Calculator p{
     color: rgba(255, 255, 255, 0.5);
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
     line-height: 24px;
 }
@@ -314,7 +314,7 @@ nav {
 }
 .chart-main h1{
     color: rgb(255, 255, 255);
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 900;
     line-height: 120%;
     margin-bottom: 52px;   
@@ -332,7 +332,7 @@ td, th {
 }
 th{
     color: rgb(255, 255, 255);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -342,12 +342,12 @@ th{
 }
 
 .calculator h1{
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .calculator p {
     margin: 10px 0 28px;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: rgba(255, 255, 255, 0.5);
 }
 
@@ -383,7 +383,7 @@ th{
     background-color: #E6533C;
     border: none;
     border-radius: 80px;
-    font-size: 13px;
+    font-size: 0.813rem;
     cursor: pointer;
 }
 
@@ -407,27 +407,27 @@ th{
     margin: 0 20px;
 }
 .first-card h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
     color: white;
     margin-bottom: 1px;
 }
 .first-card p {
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
     margin-bottom: 20px;
 }
 .first-card h2 {
-    font-size: 44px;
+    font-size: 2.75rem;
     color: white;
     margin: 41px 0;
 }
 .first-card h5 {
-    font-size: 16px;
+    font-size: 1rem;
     color: white;
     margin: 20px 0;
 }
 .first-card h3 {
-    font-size: 12px;
+    font-size: .75rem;
     margin: 10px 0;
     color: white;
 }
@@ -435,7 +435,7 @@ th{
     padding: 14px 46px;
     border: none;
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 0.938rem;
     color: white;
     background-color: rgb(230, 83, 60);
     cursor: pointer;
@@ -470,7 +470,7 @@ th{
 
 .team h3 {
     color: white;
-    font-size: 22px;
+    font-size: 1.375rem;
     font-weight: 700;
 }
 .team p {
@@ -564,7 +564,7 @@ footer{
 }
 .footer h1{
     color: rgb(255, 255, 255);
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -577,7 +577,7 @@ footer{
     color: rgba(255, 255, 255, 0.5);
 }
 .footer-logo h1{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 800;
     line-height: 120%;
     color: rgb(230, 83, 60);
@@ -590,11 +590,11 @@ footer{
 .copyright{
     color: rgba(255, 255, 255, 0.5);
     font-family: Inter;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
     margin-bottom: 0;
 }
 .copyright h2 {
-    font-size: 17px;
+    font-size: 1.063rem;
 }
