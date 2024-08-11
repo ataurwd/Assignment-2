@@ -13,7 +13,7 @@
     .menu-icon {
         display: block;
         color: white;
-        padding: 44px 0 0 168px;
+        padding: 44px 0 0 95px;
     }
     .main-header {
         background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
@@ -38,7 +38,10 @@
     }
     
     .header-img {
-        margin-top: 48px;
+        margin-top: 0;
+    }
+    .header-main img {
+        width: 100%;
     }
     .head-card-first {
         top: 70%;

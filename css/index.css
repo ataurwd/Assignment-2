@@ -270,6 +270,7 @@ nav {
     height: 100%;
     border-radius: 18px;
     margin-right: 33px;
+    width: 100%;
 }
 
 .run-main button {
@@ -394,8 +395,9 @@ th{
     width: 91%;
     margin: 0 auto;
 }
-.card-main{
+.card-main {
     display: flex;
+    justify-content: center;
 }
 .first-card {
     background-color: rgba(255, 255, 255, 0.1);
