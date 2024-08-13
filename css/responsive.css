@@ -31,7 +31,7 @@
     }
     .header-text {
         padding-top: 17px;
-        padding-left: 10px;
+        /* padding-left: 10px; */
     }
     .header-text p {
         width: 99%;
@@ -103,7 +103,7 @@
         background: rgb(34, 34, 34);
         height: auto;
         /* width: 85%; */
-        margin: 50px 0 0 7%;
+        /* margin: 50px 0 0 7%; */
         padding: 40px 24px;
         flex-direction: column;
     }
@@ -142,7 +142,7 @@
     }
     .Calculator {
         width: 81%;
-        margin: 50px 0 27px 14%;
+        margin: 28px auto;
         text-align: center;
     }
     .Calculator h1 {
@@ -169,12 +169,14 @@
         grid-template-columns: repeat(2,53%);
     }
     .card {
-        /* width: 95%; */
-        margin: 20px 2% 0;
+        width: 95%;
+        margin: 0 auto;
     }
     .card-main {
         flex-direction: column;
-        margin-left: 6%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
     }
     .first-card {
         background-color: rgba(255, 255, 255, 0.1);
